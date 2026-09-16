@@ -1,5 +1,7 @@
+import "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+
 window.addEventListener("load", function(){
-    
+    console.log(this);
     this.textos = document.getElementsByClassName("text-animate");
 
     let margin = 0;
@@ -14,3 +16,4 @@ window.addEventListener("load", function(){
     }, 1000);
 
 });
+
